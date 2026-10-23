@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8f5">
+  <meta name="description" content="Portfólio de Leonardo Martins — desenvolvedor web que transforma ideias em experiências digitais simples, úteis e bem pensadas.">
+  <title>Leonardo Martins — Desenvolvedor Web</title>
+
+  <!-- Bootstrap 5 e Bootstrap Icons via CDN. -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- Tipografia editorial e legível para uma identidade minimalista. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <!-- Navegação fixa: a marca volta ao início e o menu colapsa em telas menores. -->
+  <nav class="navbar navbar-expand-lg fixed-top site-nav" aria-label="Navegação principal">
+    <div class="container nav-container">
+      <a class="navbar-brand brand" href="#inicio" aria-label="Leonardo Martins, início">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>leonardo<span class="brand-dot">.</span></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre mim</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+          <li class="nav-item ms-lg-2"><a class="nav-contact" href="#contato">Vamos conversar <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero: retrato de exemplo, pronto para ser trocado pela foto pessoal. -->
+    <section class="hero-section" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero-container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7 hero-copy reveal">
+            <p class="eyebrow"><span class="status-dot"></span> DESENVOLVEDOR WEB · BRASIL</p>
+            <h1 id="hero-title">Olá, sou o<br><span class="headline-accent">Leonardo Martins.</span></h1>
+            <p class="hero-lede">Transformo ideias em experiências digitais <span>simples, úteis e bem pensadas.</span></p>
+            <div class="d-flex flex-wrap align-items-center gap-3 hero-actions">
+              <a class="button-primary" href="#projetos">Conheça meu trabalho <i class="bi bi-arrow-down-right" aria-hidden="true"></i></a>
+              <a class="text-link" href="#sobre">Um pouco sobre mim <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="hero-note"><span class="note-line"></span><span>Disponível para novos projetos</span></div>
+          </div>
+          <div class="col-lg-5 hero-visual reveal reveal-delay">
+            <div class="portrait-wrap">
+              <div class="portrait-orbit orbit-one" aria-hidden="true"></div>
+              <div class="portrait-orbit orbit-two" aria-hidden="true"></div>
+              <img class="portrait-image" src="/manus-storage/async-images/uYmkczUzfkLTUZKl7JOo8z/image-1.webp" alt="Retrato ilustrativo de um desenvolvedor sorrindo; substitua pela sua foto pessoal">
+              <div class="portrait-caption"><span class="caption-mark">L.</span><span>Construindo no digital<br><strong>com intenção.</strong></span></div>
+              <span class="portrait-spark" aria-hidden="true">✳</span>
+            </div>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#sobre"><span>ROLE PARA EXPLORAR</span><i class="bi bi-arrow-down" aria-hidden="true"></i></a>
+      </div>
+    </section>
+
+    <!-- Sobre: apresentação breve e competências essenciais. -->
+    <section class="about-section section-pad" id="sobre" aria-labelledby="about-title">
+      <div class="container">
+        <div class="row g-5 align-items-start">
+          <div class="col-lg-4 reveal">
+            <p class="eyebrow section-kicker">01 / SOBRE MIM</p>
+            <h2 class="section-title" id="about-title">Código com<br><span class="serif-accent">propósito.</span></h2>
+          </div>
+          <div class="col-lg-7 offset-lg-1 about-copy reveal reveal-delay">
+            <p class="about-lead">Gosto de criar na interseção entre tecnologia, design e boas ideias.</p>
+            <p>Sou desenvolvedor web com atenção aos detalhes e às pessoas que vão usar o que construo. Do primeiro rascunho ao último ajuste, meu foco é criar produtos digitais claros, acessíveis e agradáveis de usar.</p>
+            <p>Quando não estou programando, estou explorando novas referências, aprendendo algo diferente ou tomando um bom café.</p>
+            <div class="skills-list" aria-label="Principais competências">
+              <span>Desenvolvimento front-end</span><span>UI &amp; experiência</span><span>Design responsivo</span><span>Acessibilidade</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos: dois estudos de caso demonstrativos com imagens dedicadas. -->
+    <section class="projects-section section-pad" id="projetos" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading d-flex flex-wrap align-items-end justify-content-between gap-4 reveal">
+          <div>
+            <p class="eyebrow section-kicker">02 / TRABALHOS SELECIONADOS</p>
+            <h2 class="section-title" id="projects-title">Feito com <span class="serif-accent">cuidado.</span></h2>
+          </div>
+          <p class="section-aside">Uma seleção de ideias que<br>ganharam vida na tela.</p>
+        </div>
+
+        <div class="row g-4 project-grid">
+          <div class="col-md-6 reveal">
+            <article class="project-card">
+              <a class="project-image-link" href="#contato" aria-label="Saiba mais sobre o projeto Nexo">
+                <div class="project-image-frame image-blue"><img src="/manus-storage/async-images/uYmkczUzfkLTUZKl7JOo8z/image-2.webp" alt="Interface de dashboard financeiro em um laptop" loading="lazy"><span class="project-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></div>
+              </a>
+              <div class="project-meta"><div><p class="project-type">PRODUTO DIGITAL · 2025</p><h3>Nexo <span>Finance</span></h3></div><span class="project-index">01</span></div>
+              <p class="project-description">Uma experiência financeira mais clara: dados importantes, sem ruído, para decisões do dia a dia.</p>
+              <div class="project-tags"><span>Product design</span><span>Dashboard</span><span>Front-end</span></div>
+            </article>
+          </div>
+          <div class="col-md-6 reveal reveal-delay">
+            <article class="project-card">
+              <a class="project-image-link" href="#contato" aria-label="Saiba mais sobre o projeto VIVA">
+                <div class="project-image-frame image-green"><img src="/manus-storage/async-images/uYmkczUzfkLTUZKl7JOo8z/image-3.webp" alt="Aplicativo de planejamento de viagem em um smartphone" loading="lazy"><span class="project-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></div>
+              </a>
+              <div class="project-meta"><div><p class="project-type">MOBILE · 2024</p><h3>VIVA <span>leve</span></h3></div><span class="project-index">02</span></div>
+              <p class="project-description">Um companheiro de viagem para organizar roteiros, descobrir caminhos e aproveitar o percurso.</p>
+              <div class="project-tags"><span>Mobile</span><span>Experiência</span><span>Prototipação</span></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato: formulário demonstrativo que abre um novo e-mail no dispositivo. -->
+    <section class="contact-section section-pad" id="contato" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5 reveal">
+            <p class="eyebrow section-kicker">03 / CONTATO</p>
+            <h2 class="section-title contact-title" id="contact-title">Tem uma ideia?<br><span class="serif-accent">Vamos conversar.</span></h2>
+            <p class="contact-intro">Um projeto, uma pergunta ou só um oi? Minha caixa de entrada está aberta.</p>
+            <a class="email-link" href="mailto:oi@seuemail.com">oi@seuemail.com <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+            <p class="availability"><span class="status-dot"></span> Aberto a novas oportunidades</p>
+          </div>
+          <div class="col-lg-6 offset-lg-1 reveal reveal-delay">
+            <form id="contactForm" class="contact-form">
+              <div class="row g-3">
+                <div class="col-sm-6"><label for="name" class="form-label">Seu nome</label><input class="form-control" id="name" name="name" type="text" placeholder="Como posso te chamar?" autocomplete="name" required></div>
+                <div class="col-sm-6"><label for="email" class="form-label">Seu e-mail</label><input class="form-control" id="email" name="email" type="email" placeholder="voce@email.com" autocomplete="email" required></div>
+                <div class="col-12"><label for="subject" class="form-label">Sobre o que vamos falar?</label><select class="form-select" id="subject" name="subject" required><option value="" selected disabled>Selecione um assunto</option><option>Tenho um projeto em mente</option><option>Quero conversar sobre uma vaga</option><option>Outro assunto</option></select></div>
+                <div class="col-12"><label for="message" class="form-label">Sua mensagem</label><textarea class="form-control" id="message" name="message" rows="4" placeholder="Conte um pouco sobre a sua ideia..." required></textarea></div>
+                <div class="col-12 d-flex flex-wrap align-items-center gap-3 form-submit-row"><button class="button-primary" type="submit">Enviar mensagem <i class="bi bi-arrow-up-right" aria-hidden="true"></i></button><span id="formStatus" class="form-status" role="status" aria-live="polite">O formulário prepara um e-mail para você enviar.</span></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé com redes sociais e navegação secundária. -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main d-flex flex-wrap align-items-center justify-content-between gap-4">
+        <a class="navbar-brand brand footer-brand" href="#inicio" aria-label="Voltar ao início">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>leonardo<span class="brand-dot">.</span></span>
+        </a>
+        <p class="footer-thanks">Obrigado por chegar até aqui<span> ✳</span></p>
+        <div class="social-links" aria-label="Redes sociais">
+          <a href="https://www.linkedin.com/in/seu-perfil" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+          <a href="https://github.com/seu-usuario" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
+          <a href="mailto:oi@seuemail.com" aria-label="E-mail"><i class="bi bi-envelope" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom d-flex flex-wrap justify-content-between gap-2"><span>© <span id="currentYear">2025</span> Leonardo Martins. Feito com intenção.</span><a href="#inicio">Voltar ao topo ↑</a></div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap cuida do menu mobile; o script mantém animações acessíveis e envio via e-mail. -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Anima os elementos ao entrarem na tela, respeitando a preferência por movimento reduzido.
+    const revealItems = document.querySelectorAll('.reveal');
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if ('IntersectionObserver' in window && !reduceMotion) {
+      const revealObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.14 });
+      revealItems.forEach((item) => revealObserver.observe(item));
+    } else {
+      revealItems.forEach((item) => item.classList.add('is-visible'));
+    }
+
+    // Atualiza o ano automaticamente para que o rodapé não fique desatualizado.
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    // Abre um rascunho no aplicativo de e-mail. Troque o endereço pelo seu e-mail real.
+    document.getElementById('contactForm').addEventListener('submit', (event) => {
+      event.preventDefault();
+      const form = new FormData(event.currentTarget);
+      const subject = encodeURIComponent(`${form.get('subject')} — mensagem de ${form.get('name')}`);
+      const body = encodeURIComponent(`Nome: ${form.get('name')}\nE-mail: ${form.get('email')}\n\n${form.get('message')}`);
+      document.getElementById('formStatus').textContent = 'Seu aplicativo de e-mail deve abrir com a mensagem pronta para enviar.';
+      window.location.href = `mailto:oi@seuemail.com?subject=${subject}&body=${body}`;
+    });
+
+    // Fecha o menu colapsado após navegar para uma âncora, facilitando o uso no celular.
+    document.querySelectorAll('.navbar-nav .nav-link, .navbar-nav .nav-contact').forEach((link) => {
+      link.addEventListener('click', () => {
+        const menu = document.getElementById('mainMenu');
+        if (menu.classList.contains('show')) bootstrap.Collapse.getOrCreateInstance(menu).hide();
+      });
+    });
+  </script>
+</body>
+</html>
